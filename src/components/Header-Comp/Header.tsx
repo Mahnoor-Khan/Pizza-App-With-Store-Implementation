@@ -106,6 +106,7 @@ const MainHeader = observer(() => {
 
     
           <Modal
+          forceRender
             title={pizzaName}
             visible={isModalVisible}
             onCancel={handleCancel}
@@ -156,7 +157,7 @@ const MainHeader = observer(() => {
                 />
               
         </Form.Item>
-            <Form.Item name='btn'>
+            <Form.Item >
             <Button
                   shape="round"
                   id="receiptBtn"

@@ -41,13 +41,9 @@ get getDATA(){
      console.log('ends')
     }
   })
-  
+
   return {setDataa , getDataa}
 })
 export function initpopupData() {
 return popupDataModal.create({})
-}
-
-function defaultValueOfFunction(CheckValuesModal: any, defaultValueOfFunction: any, arg2: {}): import("mobx-state-tree").IOptionalIType<any, import("mobx-state-tree").ValidOptionalValues> {
-    throw new Error("Function not implemented.");
 }

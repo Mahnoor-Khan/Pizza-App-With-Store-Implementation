@@ -3,12 +3,12 @@
 export const getData = async () => {
     console.log("????")
     try {
-       console.log("Alldata")
-      return {
+       console.log("Getting The Data")
+      return console.log({
         checkValues : [50, 100],
         pizzaType : 600,
         quantity : 1
-    }
+    })
     } catch (error) {
       throw Promise.reject(error)
     }
